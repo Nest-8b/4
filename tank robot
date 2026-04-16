@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GardenBot</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f9f4;
+            color: #2e4d2e;
+        }
+        header {
+            background: #3a7d44;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #2e6b38;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .hero {
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #3a7d44;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        button {
+            background: #3a7d44;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2e6b38;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌱 GardenBot</h1>
+    <p>Таны ухаалаг цэцэрлэгийн туслах</p>
+</header>
+
+<nav>
+    <a href="#about">Тухай</a>
+    <a href="#features">Онцлогууд</a>
+    <a href="#contact">Холбоо барих</a>
+</nav>
+
+<section class="hero">
+    <h1>Цэцэрлэгээ автоматжуул</h1>
+    <p>GardenBot таны ургамлыг автоматаар усалж, хянаж, арчилна.</p>
+    <button onclick="alert('Тун удахгүй!')">Эхлэх</button>
+</section>
+
+<section id="about">
+    <h2>GardenBot-ийн тухай</h2>
+    <p>
+        Энэхүү төслийн зорилго нь гадаах орчны цас, шороо, навч, өвс зэрэг бохирдлыг автомат аргаар цэвэрлэх чадвартай робот бүтээхэд оршино. Энэ робот нь хүний хөдөлмөрийг хөнгөвчлөх, цаг хугацааг хэмнэх, аюулгүй байдлыг нэмэгдүүлэхэд чиглэнэ. Мөн орчин үеийн технологи болох Arduino, мэдрэгч болон гар утасны удирдлагыг ашиглан ухаалаг систем хөгжүүлэх зорилготой
+    </p>
+</section>
+
+<section id="features">
+    <h2>Онцлогууд</h2>
+    <div class="features">
+        <div class="card">
+            <h3>Автомат усалгаа</h3>
+            <p>Зөвхөн шаардлагатай үед усална.</p>
+        </div>
+        <div class="card">
+            <h3>Шороо, шавар ихтэй зам</h3>
+            <p>Машин явахад эвтэйхэн бас алхахад таатай болгоно.</p>
+        </div>
+        <div class="card">
+            <h3>Гар утасны удирдлага</h3>
+            <p>Роботоо утсаараа удирдана.</p>
+        </div>
+        <div class="card">
+            <h3>Мал аж ахуйн хашаа, бууц цэвэрлэх</h3>
+            <p>Адуучидад тсаг хэмнэж оор ажил хийхэд нь тусална.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Холбоо барих</h2>
+    <p>nest22291044@nhs.edu.mn</p>
+</section>
+
+<footer>
+    <p>© 2026 GardenBot.</p>
+</footer>
+
+</body>
+</html>
